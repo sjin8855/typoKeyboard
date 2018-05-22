@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">typoKeyboard</string>
+
+    <string name = "hello_world">Hello world!</string>
+    <string name = "action_setting">Settings</string>
+    <string name = "typo_keyboard">typoKeyboard</string>
+    <string name = "sybtype_en_US">English (US)</string>
+    <string name = "sybtype_kr">Korea</string>
+</resources>

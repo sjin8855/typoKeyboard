@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="10%p"
+    android:keyWidth="11%p"
     android:horizontalGap="0px"
     android:verticalGap="0px"
     android:keyHeight="60dp">
@@ -44,7 +44,7 @@
     </Row>
 
     <Row>
-        <Key android:codes="-1" android:keyLabel="SHIFT" android:keyEdgeFlags="left"/>
+        <Key android:codes="-1" android:keyLabel="SHIFT" android:keyWidth="20%p" android:keyEdgeFlags="left"/>
         <Key android:codes="122" android:keyLabel="z"/>
         <Key android:codes="120" android:keyLabel="x"/>
         <Key android:codes="99" android:keyLabel="c"/>
@@ -52,14 +52,14 @@
         <Key android:codes="98" android:keyLabel="b"/>
         <Key android:codes="110" android:keyLabel="n"/>
         <Key android:codes="109" android:keyLabel="m"/>
-        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable = "true" android:keyEdgeFlags="right"/>
+        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="15%p" android:isRepeatable = "true" android:keyEdgeFlags="right"/>
     </Row>
 
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="-2" android:keyLabel="한/영" android:keyWidth="10%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="-2" android:keyLabel="한/영" android:keyWidth="15%p" android:keyEdgeFlags="left"/>
         <Key android:codes="44,46,63" android:keyLabel=", . \?" android:keyWidth="10%p" />
-        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable = "true"/>
-        <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="60%p" android:isRepeatable = "true"/>
+        <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="15%p" android:keyEdgeFlags="right"/>
     </Row>
 
 

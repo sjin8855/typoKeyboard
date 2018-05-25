@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="10%p"
-    android:horizontalGap="0px"
-    android:verticalGap="0px"
-    android:keyHeight="60dp">
+    android:horizontalGap="3dp"
+    android:keyHeight="50dp"
+    android:keyWidth="33dp"
+    android:verticalGap="10dp">
 
     <Row>
         <Key android:codes="0x3142" android:keyLabel="1" android:keyEdgeFlags="left"/>
@@ -32,35 +32,34 @@
     </Row>
 
     <Row>
-        <Key android:codes="0x3141" android:keyLabel="ㅁ"/>
-        <Key android:codes="0x3134" android:keyLabel="ㄴ"/>
-        <Key android:codes="0x3147" android:keyLabel="ㅇ"/>
-        <Key android:codes="0x3139" android:keyLabel="ㄹ"/>
-        <Key android:codes="0x314e" android:keyLabel="ㅎ"/>
-        <Key android:codes="0x3157" android:keyLabel="ㅗ"/>
-        <Key android:codes="0x3153" android:keyLabel="ㅓ"/>
-        <Key android:codes="0x314f" android:keyLabel="ㅏ"/>
-        <Key android:codes="0x3163" android:keyLabel="ㅣ" android:keyEdgeFlags="right"/>
+        <Key android:codes="0x3141" android:keyLabel="ㅁ" android:keyWidth="37.2dp" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x3134" android:keyLabel="ㄴ" android:keyWidth="37.2dp" />
+        <Key android:codes="0x3147" android:keyLabel="ㅇ" android:keyWidth="37.2dp" />
+        <Key android:codes="0x3139" android:keyLabel="ㄹ" android:keyWidth="37.2dp" />
+        <Key android:codes="0x314e" android:keyLabel="ㅎ" android:keyWidth="37.2dp" />
+        <Key android:codes="0x3157" android:keyLabel="ㅗ" android:keyWidth="37.2dp" />
+        <Key android:codes="0x3153" android:keyLabel="ㅓ" android:keyWidth="37.2dp" />
+        <Key android:codes="0x314f" android:keyLabel="ㅏ" android:keyWidth="37.2dp" />
+        <Key android:codes="0x3163" android:keyLabel="ㅣ" android:keyWidth="37.2dp" android:keyEdgeFlags="right"/>
     </Row>
 
     <Row>
-        <Key android:codes="-1" android:keyLabel="SHIFT" android:keyEdgeFlags="left"/>
-        <Key android:codes="0x314b" android:keyLabel="ㅋ"/>
-        <Key android:codes="0x314c" android:keyLabel="ㅌ"/>
-        <Key android:codes="0x314a" android:keyLabel="ㅊ"/>
-        <Key android:codes="0x314d" android:keyLabel="ㅍ"/>
-        <Key android:codes="0x3160" android:keyLabel="ㅠ"/>
-        <Key android:codes="0x315c" android:keyLabel="ㅜ"/>
-        <Key android:codes="0x3161" android:keyLabel="ㅡ"/>
-        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable = "true" android:keyEdgeFlags="right"/>
-
+        <Key android:codes="-1" android:iconPreview="@drawable/ic_key_shift" android:keyIcon="@drawable/ic_key_shift" android:keyWidth="51dp" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x314b" android:keyLabel="ㅋ" android:keyWidth="33dp" />
+        <Key android:codes="0x314c" android:keyLabel="ㅌ" android:keyWidth="33dp" />
+        <Key android:codes="0x314a" android:keyLabel="ㅊ" android:keyWidth="33dp" />
+        <Key android:codes="0x314d" android:keyLabel="ㅍ" android:keyWidth="33dp" />
+        <Key android:codes="0x3160" android:keyLabel="ㅠ" android:keyWidth="33dp" />
+        <Key android:codes="0x315c" android:keyLabel="ㅜ" android:keyWidth="33dp" />
+        <Key android:codes="0x3161" android:keyLabel="ㅡ" android:keyWidth="33dp" />
+        <Key android:codes="-5" android:iconPreview="@drawable/ic_key_delete" android:keyIcon="@drawable/ic_key_delete" android:keyWidth="51dp" android:isRepeatable = "true" android:keyEdgeFlags="right"/>
     </Row>
 
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="-2" android:keyLabel="한/영" android:keyWidth="10%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="44,46,63" android:keyLabel=", . \?" android:keyWidth="10%p" />
-        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable = "true"/>
-        <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="-2" android:keyLabel="한/영" android:keyWidth="50dp" android:keyEdgeFlags="left"/>
+        <Key android:codes="44,46,63" android:keyLabel=", . \?" android:keyWidth="43dp" />
+        <Key android:codes="32" android:iconPreview="@drawable/ic_key_spacebar" android:keyIcon="@drawable/ic_key_spacebar" android:keyWidth="202dp" android:isRepeatable = "true"/>
+        <Key android:codes="-4" android:iconPreview="@drawable/ic_key_enter" android:keyIcon="@drawable/ic_key_enter" android:keyWidth="50dp" android:keyEdgeFlags="right"/>
     </Row>
 
 

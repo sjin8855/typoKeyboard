@@ -4,6 +4,8 @@
     <string name = "hello_world">Hello world!</string>
     <string name = "action_setting">Settings</string>
     <string name = "typo_keyboard">typoKeyboard</string>
+    <string name = "typo_keyboard1">typoKeyboard1</string>
+    <string name = "typo_keyboard2">typoKeyboard2</string>
     <string name = "sybtype_en_US">English (US)</string>
     <string name = "sybtype_kr">Korea</string>
 </resources>

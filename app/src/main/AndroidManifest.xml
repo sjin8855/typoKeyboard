@@ -32,6 +32,36 @@
 
         </service>
 
+        <service
+            android:name=".typoKeyboard1"
+            android:label="@string/typo_keyboard1"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+
+            <meta-data android:name="android.view.im"
+                android:resource="@xml/method"/>
+
+            <intent-filter>
+                <action android:name = "android.view.InputMethod"/>
+            </intent-filter>
+
+
+        </service>
+
+        <service
+            android:name=".typoKeyboard2"
+            android:label="@string/typo_keyboard2"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+
+            <meta-data android:name="android.view.im"
+                android:resource="@xml/method"/>
+
+            <intent-filter>
+                <action android:name = "android.view.InputMethod"/>
+            </intent-filter>
+
+
+        </service>
+
     </application>
 
 </manifest>

@@ -2,57 +2,57 @@
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     android:horizontalGap="4dp"
     android:keyHeight="52dp"
-    android:keyWidth="32dp"
+    android:keyWidth="31dp"
     android:verticalGap="4dp">
 
     <Row>
-        <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
-        <Key android:codes="50" android:keyLabel="2"/>
-        <Key android:codes="51" android:keyLabel="3"/>
-        <Key android:codes="52" android:keyLabel="4"/>
-        <Key android:codes="53" android:keyLabel="5"/>
-        <Key android:codes="54" android:keyLabel="6"/>
-        <Key android:codes="55" android:keyLabel="7"/>
-        <Key android:codes="56" android:keyLabel="8"/>
-        <Key android:codes="57" android:keyLabel="9"/>
-        <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
+        <Key android:codes="49" android:keyLabel="1" android:keyWidth="38dp" android:keyEdgeFlags="left"/>
+        <Key android:codes="50" android:keyLabel="2" android:keyWidth="38dp" android:keyHeight="50dp" />
+        <Key android:codes="51" android:keyLabel="3" android:keyWidth="33dp" android:keyHeight="48dp"/>
+        <Key android:codes="52" android:keyLabel="4" android:keyWidth="30dp" android:keyHeight="46dp"/>
+        <Key android:codes="53" android:keyLabel="5" android:keyWidth="27dp" android:keyHeight="44dp" />
+        <Key android:codes="54" android:keyLabel="6" android:keyWidth="27dp" android:keyHeight="44dp"/>
+        <Key android:codes="55" android:keyLabel="7" android:keyWidth="29dp" android:keyHeight="45dp" />
+        <Key android:codes="56" android:keyLabel="8" android:keyWidth="31dp" android:keyHeight="46dp"/>
+        <Key android:codes="57" android:keyLabel="9" android:keyWidth="33dp" android:keyHeight="47dp"/>
+        <Key android:codes="48" android:keyLabel="0" android:keyWidth="35dp" android:keyHeight="48dp" android:keyEdgeFlags="right"/>
     </Row>
 
     <Row>
-        <Key android:codes="113" android:keyLabel="q" android:keyEdgeFlags="left"/>
-        <Key android:codes="119" android:keyLabel="w" android:horizontalGap="2.5dp" />
-        <Key android:codes="101" android:keyLabel="e" android:horizontalGap="2.5dp" />
-        <Key android:codes="114" android:keyLabel="r" android:horizontalGap="2.5dp" />
-        <Key android:codes="116" android:keyLabel="t" android:horizontalGap="2.5dp" android:keyWidth="36dp" />
-        <Key android:codes="121" android:keyLabel="y" android:horizontalGap="2.5dp" android:keyWidth="40dp" />
-        <Key android:codes="117" android:keyLabel="u" android:horizontalGap="2.5dp"/>
-        <Key android:codes="105" android:keyLabel="i" android:horizontalGap="2.5dp"/>
-        <Key android:codes="111" android:keyLabel="o" android:horizontalGap="2.5dp"/>
-        <Key android:codes="112" android:keyLabel="p" android:keyEdgeFlags="right"/>
+        <Key android:codes="113" android:keyLabel="q" android:keyWidth="40dp" android:keyEdgeFlags="left"/>
+        <Key android:codes="119" android:keyLabel="w" android:keyWidth="37dp" android:horizontalGap="2.5dp" android:keyHeight="50dp" />
+        <Key android:codes="101" android:keyLabel="e" android:keyWidth="34dp" android:horizontalGap="2.5dp" android:keyHeight="48dp" />
+        <Key android:codes="114" android:keyLabel="r" android:keyWidth="31dp" android:horizontalGap="2.5dp" android:keyHeight="46dp" />
+        <Key android:codes="116" android:keyLabel="t" android:keyWidth="29dp" android:horizontalGap="2.5dp" android:keyHeight="44dp" />
+        <Key android:codes="121" android:keyLabel="y" android:keyWidth="28dp" android:horizontalGap="2.5dp" android:keyHeight="43dp" />
+        <Key android:codes="117" android:keyLabel="u" android:keyWidth="30dp" android:horizontalGap="2.5dp" android:keyHeight="44dp"/>
+        <Key android:codes="105" android:keyLabel="i" android:keyWidth="32dp" android:horizontalGap="2.5dp" android:keyHeight="45dp"/>
+        <Key android:codes="111" android:keyLabel="o" android:keyWidth="34dp" android:horizontalGap="2.5dp" android:keyHeight="46dp"/>
+        <Key android:codes="112" android:keyLabel="p" android:keyWidth="36dp" android:keyEdgeFlags="right" android:keyHeight="47dp"/>
     </Row>
 
 
     <Row>
-        <Key android:codes="97" android:keyLabel="a" android:horizontalGap="20dp" android:keyWidth="34dp" android:keyEdgeFlags="left" />
-        <Key android:codes="115" android:keyLabel="s" android:keyWidth="32dp"/>
-        <Key android:codes="100" android:keyLabel="d" android:keyWidth="32dp"/>
-        <Key android:codes="102" android:keyLabel="f" android:keyWidth="32dp"/>
-        <Key android:codes="103" android:keyLabel="g" android:keyWidth="32dp"/>
-        <Key android:codes="104" android:keyLabel="h" android:keyWidth="32dp"/>
-        <Key android:codes="106" android:keyLabel="j" android:keyWidth="32dp"/>
-        <Key android:codes="107" android:keyLabel="k" android:keyWidth="32dp"/>
-        <Key android:codes="108" android:keyLabel="l" android:keyWidth="32dp"/>
+        <Key android:codes="97" android:keyLabel="a" android:horizontalGap="21dp" android:keyWidth="37dp" android:keyEdgeFlags="left" />
+        <Key android:codes="115" android:keyLabel="s" android:keyWidth="35dp" android:keyHeight="50dp"/>
+        <Key android:codes="100" android:keyLabel="d" android:keyWidth="33dp" android:keyHeight="48dp"/>
+        <Key android:codes="102" android:keyLabel="f" android:keyWidth="31dp" android:keyHeight="46dp"/>
+        <Key android:codes="103" android:keyLabel="g" android:keyWidth="29dp" android:keyHeight="44dp"/>
+        <Key android:codes="104" android:keyLabel="h" android:keyWidth="30dp" android:keyHeight="43dp"/>
+        <Key android:codes="106" android:keyLabel="j" android:keyWidth="31dp" android:keyHeight="44dp"/>
+        <Key android:codes="107" android:keyLabel="k" android:keyWidth="32dp" android:keyHeight="45dp"/>
+        <Key android:codes="108" android:keyLabel="l" android:keyWidth="33dp" android:keyHeight="46dp"/>
     </Row>
 
     <Row>
-        <Key android:codes="-1" android:iconPreview="@drawable/ic_key_shift" android:keyIcon="@drawable/ic_key_shift" android:keyWidth="35dp" android:keyEdgeFlags="left"/>
-        <Key android:codes="122" android:keyLabel="z" android:keyWidth="34dp" android:horizontalGap="3dp" />
-        <Key android:codes="120" android:keyLabel="x" android:keyWidth="34dp" android:horizontalGap="3dp" />
-        <Key android:codes="99" android:keyLabel="c" android:keyWidth="34dp" android:horizontalGap="3dp" />
-        <Key android:codes="118" android:keyLabel="v" android:keyWidth="37dp" android:horizontalGap="3dp" />
-        <Key android:codes="98" android:keyLabel="b" android:keyWidth="39dp" android:horizontalGap="3dp" />
-        <Key android:codes="110" android:keyLabel="n" android:keyWidth="36.5dp" android:horizontalGap="3dp" />
-        <Key android:codes="109" android:keyLabel="m" android:keyWidth="36.5dp" android:horizontalGap="3dp" />
+        <Key android:codes="-1" android:iconPreview="@drawable/ic_key_shift" android:keyIcon="@drawable/ic_key_shift" android:keyWidth="42dp" android:keyEdgeFlags="left"/>
+        <Key android:codes="122" android:keyLabel="z" android:keyWidth="40dp" android:horizontalGap="3dp" android:keyHeight="50dp" />
+        <Key android:codes="120" android:keyLabel="x" android:keyWidth="37dp" android:horizontalGap="3dp" android:keyHeight="48dp"/>
+        <Key android:codes="99" android:keyLabel="c" android:keyWidth="35dp" android:horizontalGap="3dp" android:keyHeight="46dp"/>
+        <Key android:codes="118" android:keyLabel="v" android:keyWidth="33dp" android:horizontalGap="3dp" android:keyHeight="45dp"/>
+        <Key android:codes="98" android:keyLabel="b" android:keyWidth="34dp" android:horizontalGap="3dp" android:keyHeight="46dp"/>
+        <Key android:codes="110" android:keyLabel="n" android:keyWidth="35dp" android:horizontalGap="3dp" android:keyHeight="47dp"/>
+        <Key android:codes="109" android:keyLabel="m" android:keyWidth="36dp" android:horizontalGap="3dp" android:keyHeight="48dp"/>
         <Key android:codes="-5" android:iconPreview="@drawable/ic_key_delete" android:keyIcon="@drawable/ic_key_delete" android:keyWidth="42dp" android:isRepeatable = "true" android:keyEdgeFlags="right"/>
     </Row>
 

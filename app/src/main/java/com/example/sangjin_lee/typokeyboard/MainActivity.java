@@ -66,9 +66,10 @@ public class MainActivity extends AppCompatActivity {
     Button.OnClickListener OptionOnClickListener = new Button.OnClickListener() {
         public void onClick(View v) {
             if(option1.isChecked()) {
-                //Intent intent;
-                //intent = new Intent(MainActivity.this,typoKeyboard.class);
-                //startActivity(intent);
+                Intent intent = new Intent(MainActivity.this,typoKeyboard.class);
+                intent.putExtra("keyname", "qwerty");
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
 
                 Toast.makeText(MainActivity.this, "Option 1 : apply", Toast.LENGTH_SHORT).show();
             }
